@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <div class="container">
+      <form action="https://register-demo.freecodecamp.org" method="post">
+        <fieldset>
+          <label>Full name</label>
+          <input
+            class="fullname"
+            type="text"
+            placeholder="First Name"
+            name="firstname"
+            required
+          />
+          <input
+            class="fullname"
+            type="text"
+            placeholder="Last Name"
+            name="lastname"
+            required
+          />
+          <label>Email</label>
+          <input type="email" placeholder="T" name="email" required />
+          <label>Password</label>
+          <input
+            type="password"
+            name="password"
+            pattern="[a-z0-9]{9,}"
+            placeholder="T"
+            required
+          />
+        </fieldset>
+        <hr class="border" />
+        <fieldset>
+          <label>Account type</label>
+          <div class="inline">
+            <label for="personal-account">
+              <input
+                type="radio"
+                id="personal-account"
+                name="account-type"
+                checked
+              />Personal</label
+            >
+          </div>
+          <div class="inline">
+            <label for="business-account">
+              <input
+                type="radio"
+                id="business-account"
+                name="account-type"
+              />Business</label
+            >
+          </div>
+        </fieldset>
+        <hr class="border" />
+        <fieldset>
+          <label>How did you hear about us?</label>
+          <textarea
+            name="referrer"
+            cols="42"
+            rows="5"
+            placeholder="I found out about the site in..."
+          ></textarea>
+          <label>Tell us about yourself?</label>
+          <textarea
+            name="biography"
+            cols="42"
+            rows="5"
+            placeholder="I'm a coder with many aspirations, such as..."
+          ></textarea>
+        </fieldset>
+        <label for="terms" class="terms"
+          ><input type="checkbox" id="terms" name="terms" required />
+          I accept the
+          <a
+            href="https://www.freecodecamp.org/news/terms-of-service"
+            target="_blank"
+            >terms & conditions</a
+          ></label
+        >
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
