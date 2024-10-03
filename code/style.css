@@ -1,0 +1,155 @@
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(58, 49, 181, 0.72),
+    rgba(148, 175, 248, 0.81),
+    rgba(58, 49, 181, 0.72)
+  );
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  color: #e3f8ff;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  margin: 3.3rem 0 0 0;
+  font-size: x-large;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 54%;
+  min-width: 45%;
+  max-width: 90%;
+  margin: 1.2em auto;
+  min-width: 45%;
+  padding: 0.9em;
+}
+
+form {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.6em;
+}
+
+form {
+  text-align: center;
+}
+
+fieldset {
+  margin: 0 auto;
+}
+
+fieldset:nth-of-type(2) label:first-of-type {
+  margin: 0.6em 0 1.2em 0;
+}
+
+fieldset,
+input,
+textarea,
+hr {
+  border: none;
+}
+
+fieldset:nth-of-type(2) div.inline label,
+input[type="submit"],
+input::placeholder,
+textarea::placeholder {
+  color: #e3f8ff76;
+}
+
+input {
+  background-color: rgba(90, 94, 144, 0.167);
+  outline: none;
+  color: #e3f8ff;
+  width: 93%;
+  padding: 0.6em;
+  margin: 0.6em auto;
+  border-radius: 9.3px;
+  box-shadow: 0 0 12px rgba(28, 33, 71, 0.504);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  box-shadow: none;
+  width: unset;
+  margin: 0 0.6em 0 0;
+  vertical-align: middle;
+}
+
+input[type="checkbox"] {
+  margin: 0 0.6em 0 1.2em;
+}
+
+input[type="submit"] {
+  width: 150px;
+  background-color: rgba(28, 33, 71, 0.431);
+  margin: 1.2em 0 0.6em 0;
+}
+
+input[type="submit"]:hover {
+  box-shadow: 0 0 12px rgba(28, 33, 71, 0.888);
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 12px rgba(28, 33, 71, 0.888);
+}
+
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  box-shadow: none;
+}
+
+label {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  display: block;
+  margin: 1.5em 0 0 0;
+}
+
+label:first-of-type {
+  margin: 0.6em 0 0 0;
+}
+
+hr {
+  background-color: rgba(50, 58, 117, 0.406);
+  width: 92%;
+  border-style: dotted;
+  border-radius: 9px;
+  height: 3px;
+}
+
+textarea {
+  width: 93%;
+  min-height: 120px;
+  max-height: 300px;
+  outline: none;
+  border-radius: 9.3px;
+  background-color: rgba(90, 94, 144, 0.167);
+  box-shadow: 0 0 12px rgba(28, 33, 71, 0.504);
+  margin: 0.6em auto;
+  padding: 0.6em;
+  color: #e3f8ff;
+  resize: vertical;
+}
+
+.terms {
+  font-size: small;
+  font-style: italic;
+}
+
+.inline label {
+  display: inline;
+}
+
+a {
+  color: rgba(53, 54, 59, 0.752);
+}
+
+a:hover {
+  color: rgba(28, 33, 71, 0.396);
+}
